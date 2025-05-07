@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
 import home1 from '../assets/img/home/home1.jpg'
-import home2 from '../assets/img/home/home2.jpg'
 import home3 from '../assets/img/home/home3.jpg'
 const images = [
     home1,home2,home3
