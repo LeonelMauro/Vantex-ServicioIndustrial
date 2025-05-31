@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, IconButton, Button, Stack } from '@mui/material';
+import { Box, Typography, IconButton, Stack, Link } from '@mui/material';
 import { Facebook, Instagram, LinkedIn, WhatsApp } from '@mui/icons-material';
 
 const Footer = () => {
@@ -7,46 +7,64 @@ const Footer = () => {
     <Box sx={{ backgroundColor: '#2c2c2c', color: '#fff', py: 4, px: 2 }}>
       <Stack
         direction={{ xs: 'column', md: 'row' }}
-        spacing={4}
+        spacing={3}
         justifyContent="space-between"
-        alignItems="center"
+        alignItems={{ xs: 'center', md: 'flex-start' }}
+        textAlign={{ xs: 'center', md: 'left' }}
       >
-        {/* Texto de copyright */}
-        <Typography variant="body2" sx={{ textAlign: { xs: 'center', md: 'left' } }}>
-          © {new Date().getFullYear()} Servicios Técnicos Industriales. Todos los derechos reservados.
-        </Typography>
+        {/* Sección de texto */}
+        <Box>
+          <Typography variant="body2">
+            © {new Date().getFullYear()} Servicios Técnicos Industriales. Todos los derechos reservados.
+          </Typography>
+          <Typography variant="body2" sx={{ mt: 1 }}>
+            Contacto:{' '}
+            <Link
+              href="mailto:vantexindustrial2019@outlook.com"
+              color="inherit"
+              underline="hover"
+            >
+              vantexindustrial2019@outlook.com
+            </Link>{' '}
+            | Tel: +54 9 261 123 4567
+          </Typography>
+        </Box>
 
         {/* Redes sociales */}
-        <Stack direction="row" spacing={2}>
-          <IconButton color="inherit" href="https://facebook.com" target="_blank">
+        <Stack direction="row" spacing={2} justifyContent="center">
+          <IconButton
+            color="inherit"
+            href="https://www.facebook.com/profile.php?id=61576038615973&locale=es_LA"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Facebook sx={{ color: '#D3D3D3' }} />
           </IconButton>
-          <IconButton color="inherit" href="https://instagram.com" target="_blank">
+          <IconButton
+            color="inherit"
+            href="https://www.instagram.com/vantex.servicios/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Instagram sx={{ color: '#D3D3D3' }} />
           </IconButton>
-          <IconButton color="inherit" href="https://linkedin.com" target="_blank">
+          <IconButton
+            color="inherit"
+            href="https://www.linkedin.com/in/gustavo-lucero-282631127/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedIn sx={{ color: '#D3D3D3' }} />
           </IconButton>
-          <IconButton color="inherit" href="https://wa.me/549261155234316" target="_blank">
+          <IconButton
+            color="inherit"
+            href="https://wa.me/message/EZQITYKXASOWF1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <WhatsApp sx={{ color: '#25D366' }} />
           </IconButton>
         </Stack>
-
-        {/* Botón de contacto */}
-        <Button
-          variant="contained"
-          color="primary"
-          href="mailto:contacto@sti.com"
-          sx={{
-            backgroundColor: '001351',
-            borderRadius: '30px',
-            px: 4,
-            py: 1,
-            fontWeight: 'bold',
-          }}
-        >
-          Contactarnos
-        </Button>
       </Stack>
     </Box>
   );

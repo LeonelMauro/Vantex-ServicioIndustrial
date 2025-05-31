@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import home1 from '../assets/img/home/home1.jpg'
 import home3 from '../assets/img/home/home3.jpg'
 const images = [
-    home1,home2,home3
+    home1,,home3
   ];
   
 

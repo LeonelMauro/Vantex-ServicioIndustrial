@@ -21,16 +21,21 @@ const Hero = () => {
       <BackgroundCarousel />
       <Box
         sx={{
-          zIndex: 1,
-          fontWeight: 'bold',
-          fontSize: '1rem',
+       
           transition: 'background 0.3s',
         }}
       >
-        <Typography variant="h3" gutterBottom>
+        <Typography variant="h2" gutterBottom sx={{
+
+              textShadow: `-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 2px rgba(0,0,0,1)`
+            }}>
           Soluciones Industriales de Confianza
         </Typography>
-        <Typography variant="h6" gutterBottom>
+        <Typography variant="h4" gutterBottom sx={{
+              color: 'white',
+              
+              textShadow: `-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 2px rgba(0,0,0,1)`
+            }}>
           Calidad, compromiso y profesionalismo en cada trabajo.
         </Typography>
 
@@ -42,7 +47,7 @@ const Hero = () => {
           offset={-64} // ajusta para que no lo tape el header
         >
           <Button variant="contained" color="primary" size="large">
-            Conocé nuestros servicios
+          Nuestros servicios
           </Button>
         </ScrollLink>
       </Box>

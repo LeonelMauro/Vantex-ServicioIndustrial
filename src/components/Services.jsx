@@ -11,37 +11,48 @@ import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import mantenimiento from '../assets/Servicios/mantenimiento.jpg';
+import mantenimiento2 from '../assets/Servicios/mantenimiento2.jpg';
+import ingenieria from '../assets/Servicios/ingenieria.jpg';
+import ingenieria2 from '../assets/Servicios/ingenieria2.jpeg';
+import montaje from '../assets/Servicios/montaje.jpg';
+import montaje2 from '../assets/Servicios/montaje2.jpeg';
+import montaje3 from '../assets/Servicios/montaje3.jpg';
+import diagnostico from '../assets/Servicios/diagnostico.jpg';
+import diagnostico3 from '../assets/Servicios/diagnostico3.jpg';
+import proyecto from '../assets/Servicios/proyecto.jpg';
+import auditoria from '../assets/Servicios/auditoria.jpeg';
 
 const services = [
   {
     name: 'Mantenimiento industrial',
     icon: <BuildIcon />,
     description: 'Servicio de mantenimiento preventivo y correctivo de instalaciones industriales.',
-    images: ['/img/mantenimiento1.jpg', '/img/mantenimiento2.jpg']
+    images: [mantenimiento, mantenimiento2]
   },
   {
     name: 'Ingeniería (Proyectos)',
     icon: <SettingsSuggestIcon />,
     description: 'Diseño y ejecución de proyectos de ingeniería a medida.',
-    images: ['/img/ingenieria1.jpg', '/img/ingenieria2.jpg']
+    images: [ingenieria, ingenieria2]
   },
   {
     name: 'Montaje de equipos',
     icon: <PrecisionManufacturingIcon />,
     description: 'Montaje y puesta en marcha de maquinaria industrial.',
-    images: ['/img/montaje1.jpg', '/img/montaje2.jpg']
+    images: [montaje, montaje2,montaje3]
   },
   {
     name: 'Diagnóstico y resolución de fallas',
     icon: <TroubleshootIcon />,
     description: 'Detección y solución rápida de problemas técnicos.',
-    images: ['/img/diagnostico1.jpg', '/img/diagnostico2.jpg']
+    images: [diagnostico,diagnostico3]
   },
   {
     name: 'Auditorías técnicas',
     icon: <AssignmentTurnedInIcon />,
     description: 'Evaluaciones técnicas para mejorar procesos y prevenir fallas.',
-    images: ['/img/auditoria1.jpg', '/img/auditoria2.jpg']
+    images: [proyecto, auditoria]
   }
 ];
 
@@ -75,7 +86,7 @@ const Services = () => {
         variant="h4"
         align="center"
         gutterBottom
-        sx={{ color: '#F5E6D3', fontWeight: 'bold', mb: 6 }}
+        sx={{ fontSize: { xs: '2rem', sm: '2.5rem' },color: '#F5E6D3', fontWeight: 'bold', mb: 6 }}
       >
         Nuestros Servicios
       </Typography>
@@ -146,11 +157,13 @@ const Services = () => {
                       src={img}
                       alt={`Imagen ${idx + 1}`}
                       sx={{
-                        width: '100%',
-                        maxHeight: 400,
-                        objectFit: 'cover',
-                        borderRadius: 2
-                      }}
+                          width: '100%',
+                          height: { xs: 200, sm: 300, md: 400 },
+                          objectFit: 'contain',
+                          borderRadius: 2,
+                          backgroundColor: '#000'
+                        }}
+
                     />
                   </Box>
                 ))}

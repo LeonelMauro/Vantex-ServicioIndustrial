@@ -20,7 +20,7 @@ const About = () => {
         <Typography
           variant="h4"
           gutterBottom
-          sx={{ fontWeight: 'bold', fontSize: { xs: '2rem', sm: '2.5rem' }, color: '#F5E6D3' }}
+          sx={{ fontWeight: 'bold', fontSize: { xs: '2rem', sm: '2.5rem' }, color: '#D2B48C', }}
         >
           ¿Quiénes somos?
         </Typography>
@@ -40,15 +40,15 @@ const About = () => {
         <Grid container spacing={4} justifyContent="center">
           <Grid item xs={12} sm={4} textAlign="center">
             <AccessTimeIcon sx={{ fontSize: 60, color: '#D2B48C' }} />
-            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' }}>Puntualidad</Typography>
+            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' ,color: '#D2B48C'}}>Puntualidad</Typography>
           </Grid>
           <Grid item xs={12} sm={4} textAlign="center">
             <PrecisionManufacturingIcon sx={{ fontSize: 60, color: '#D2B48C' }} />
-            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' }}>Calidad Técnica</Typography>
+            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' ,color: '#D2B48C'}}>Calidad Técnica</Typography>
           </Grid>
           <Grid item xs={12} sm={4} textAlign="center">
             <SecurityIcon sx={{ fontSize: 60, color: '#D2B48C' }} />
-            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' }}>Seguridad</Typography>
+            <Typography variant="h6" sx={{ mt: 1, fontSize: '1.1rem' ,color: '#D2B48C'}}>Seguridad</Typography>
           </Grid>
         </Grid>
       </Container>
