@@ -50,35 +50,51 @@ const Header = () => {
               >
                 <MenuIcon sx={{ color: '#D2B48C' }} />
               </IconButton>
-              <Drawer
-                anchor="right"
-                open={openDrawer}
-                onClose={() => setOpenDrawer(false)}
-              >
-                <List sx={{ width: 200 }}>
-                  {sections.map((section) => (
-                    <ListItem
-                      button
-                      key={section}
-                      onClick={() => setOpenDrawer(false)}
-                    >
-                      <ScrollLink
-                        to={section}
-                        smooth={true}
-                        duration={600}
-                        offset={-70}
-                        style={{
-                          textDecoration: 'none',
-                          color: '#333',
-                          width: '100%',
-                        }}
+                              <Drawer
+                  anchor="right"
+                  open={openDrawer}
+                  onClose={() => setOpenDrawer(false)}
+                  PaperProps={{
+                    sx: {
+                      backgroundColor: '#333', // gris oscuro
+                      color: '#D2B48C'          // color de texto por defecto
+                    }
+                  }}
+                >
+                  <List sx={{ width: 200 }}>
+                    {sections.map((section) => (
+                      <ListItem
+                        button
+                        key={section}
+                        onClick={() => setOpenDrawer(false)}
                       >
-                        <ListItemText primary={section.toUpperCase()} />
-                      </ScrollLink>
-                    </ListItem>
-                  ))}
-                </List>
-              </Drawer>
+                        <ScrollLink
+                          to={section}
+                          smooth={true}
+                          duration={600}
+                          offset={-70}
+                          style={{
+                            textDecoration: 'none',
+                            color: '#D2B48C',
+                            width: '100%',
+                          }}
+                        >
+                          <ListItemText
+                            primary={section.toUpperCase()}
+                            primaryTypographyProps={{
+                              fontFamily: 'Playfair Display, serif',
+                              fontSize: '1rem',
+                              fontWeight: 'bold',
+                              textAlign: 'center',
+                              color: '#D2B48C',
+                            }}
+                          />
+                        </ScrollLink>
+                      </ListItem>
+                    ))}
+                  </List>
+                </Drawer>
+
             </>
           ) : (
             <>
