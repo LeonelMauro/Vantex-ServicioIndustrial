@@ -37,7 +37,7 @@ const Header = () => {
             <Box component="img" src={logo} alt="Logo" sx={{ height: 70, mr: 2 }} />
           </ScrollLink>
 
-          <Typography variant="h6" sx={{ color: 'white', flexGrow: 1 }}>
+          <Typography variant="h6" sx={{fontFamily: 'Playfair Display, serif', color: 'white', flexGrow: 1 }}>
             Servicios Técnicos Industriales
           </Typography>
 
@@ -96,6 +96,7 @@ const Header = () => {
                     textDecoration: 'none',
                     cursor: 'pointer',
                     fontWeight: 'bold',
+                    fontFamily: 'Playfair Display, serif',
                     fontSize: '1rem',
                     transition: 'background 0.3s',
                     padding: '6px 12px',
@@ -103,7 +104,7 @@ const Header = () => {
                   }}
                   activeStyle={{ backgroundColor: '#555' }}
                 >
-                  {section.toUpperCase()}
+                  {section.charAt(0).toUpperCase() + section.slice(1).toLowerCase()}
                 </ScrollLink>
               ))}
             </>

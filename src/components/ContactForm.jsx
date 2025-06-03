@@ -47,7 +47,7 @@ const ContactForm = () => {
 
   return (
     <Container id="contacto" sx={{ py: 8 }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography sx={{fontFamily:'Playfair Display, serif',}} variant="h4" gutterBottom>
         Contactanos
       </Typography>
       <Box

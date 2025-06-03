@@ -26,7 +26,7 @@ const Footer = () => {
             >
               vantexindustrial2019@outlook.com
             </Link>{' '}
-            | Tel: +54 9 261 5952028
+            | Tel: +54 9 261 5952028 
           </Typography>
         </Box>
 

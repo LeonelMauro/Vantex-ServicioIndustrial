@@ -85,8 +85,8 @@ const Services = () => {
       <Typography
         variant="h4"
         align="center"
-        gutterBottom
-        sx={{ fontSize: { xs: '2rem', sm: '2.5rem' },color: '#F5E6D3', fontWeight: 'bold', mb: 6 }}
+        gutterBottom      
+        sx={{ fontFamily: 'Playfair Display, serif', fontSize: { xs: '2rem', sm: '2.5rem' },color: '#F5E6D3', fontWeight: 'bold', mb: 6 }}
       >
         Nuestros Servicios
       </Typography>

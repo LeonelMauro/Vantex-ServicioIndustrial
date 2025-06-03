@@ -20,7 +20,7 @@ const About = () => {
         <Typography
           variant="h4"
           gutterBottom
-          sx={{ fontWeight: 'bold', fontSize: { xs: '2rem', sm: '2.5rem' }, color: '#D2B48C', }}
+          sx={{ fontFamily: 'Playfair Display, serif',fontWeight: 'bold', fontSize: { xs: '2rem', sm: '2.5rem' }, color: '#D2B48C', }}
         >
           ¿Quiénes somos?
         </Typography>
