@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vantexindustrial.com/sitemap.xml
