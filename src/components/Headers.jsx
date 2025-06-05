@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import logo from '../assets/img/logo.jpeg';
 import {
   AppBar,
   Toolbar,
@@ -34,7 +33,7 @@ const Header = () => {
             offset={-70}
             style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}
           >
-            <Box component="img" src={logo} alt="Logo" sx={{ height: 70, mr: 2 }} />
+            <Box component="img" src="/logo.png" alt="Logo de Vantex Servicios Técnicos Industriales" sx={{ height: 70, mr: 2 }} />
           </ScrollLink>
 
           <Typography variant="h6" sx={{fontFamily: 'Playfair Display, serif', color: 'white', flexGrow: 1 }}>
