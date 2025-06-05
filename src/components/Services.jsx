@@ -14,14 +14,14 @@ import 'slick-carousel/slick/slick-theme.css';
 import mantenimiento from '../assets/Servicios/mantenimiento.jpg';
 import mantenimiento2 from '../assets/Servicios/mantenimiento2.jpg';
 import ingenieria from '../assets/Servicios/ingenieria.jpg';
-import ingenieria2 from '../assets/Servicios/ingenieria2.jpeg';
+import ingenieria2 from '../assets/Servicios/ingenieria2.jpg';
 import montaje from '../assets/Servicios/montaje.jpg';
-import montaje2 from '../assets/Servicios/montaje2.jpeg';
+import montaje2 from '../assets/Servicios/montaje2.jpg';
 import montaje3 from '../assets/Servicios/montaje3.jpg';
 import diagnostico from '../assets/Servicios/diagnostico.jpg';
 import diagnostico3 from '../assets/Servicios/diagnostico3.jpg';
 import proyecto from '../assets/Servicios/proyecto.jpg';
-import auditoria from '../assets/Servicios/auditoria.jpeg';
+import auditoria from '../assets/Servicios/auditoria.jpg';
 
 const services = [
   {
