@@ -17,6 +17,9 @@ const Footer = () => {
           <Typography variant="body2">
             © {new Date().getFullYear()} Servicios Técnicos Industriales. Todos los derechos reservados.
           </Typography>
+          <Typography variant="body2">
+            Ubicación: Mendoza-Argentina.
+          </Typography>
           <Typography variant="body2" sx={{ mt: 1 }}>
             Contacto:{' '}
             <Link
