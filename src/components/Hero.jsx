@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import BackgroundCarousel from './BackgroundCarousel';
 import { Link as ScrollLink } from 'react-scroll';

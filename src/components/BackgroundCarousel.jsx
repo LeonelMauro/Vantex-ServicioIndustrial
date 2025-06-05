@@ -1,7 +1,6 @@
-import React from 'react';
 import Slider from 'react-slick';
-import home1 from '../assets/img/home/home1.jpg'
-import home3 from '../assets/img/home/home3.jpg'
+import home1 from '../assets/img/home/home1.webp'
+import home3 from '../assets/img/home/home3.webp'
 const images = [
     home1,,home3
   ];

@@ -11,16 +11,16 @@ import AssignmentTurnedInIcon from '@mui/icons-material/AssignmentTurnedIn';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import mantenimiento from '../assets/Servicios/mantenimiento.jpg';
-import mantenimiento2 from '../assets/Servicios/mantenimiento2.jpg';
-import ingenieria from '../assets/Servicios/ingenieria.jpg';
+import mantenimiento from '../assets/Servicios/mantenimiento.webp';
+import mantenimiento2 from '../assets/Servicios/mantenimiento2.webp';
+import ingenieria from '../assets/Servicios/ingenieria.webp';
 import ingenieria2 from '../assets/Servicios/ingenieria2.jpg';
-import montaje from '../assets/Servicios/montaje.jpg';
+import montaje from '../assets/Servicios/montaje.webp';
 import montaje2 from '../assets/Servicios/montaje2.jpg';
-import montaje3 from '../assets/Servicios/montaje3.jpg';
-import diagnostico from '../assets/Servicios/diagnostico.jpg';
+import montaje3 from '../assets/Servicios/montaje3.webp';
+import diagnostico from '../assets/Servicios/diagnostico.webp';
 import diagnostico3 from '../assets/Servicios/diagnostico3.jpg';
-import proyecto from '../assets/Servicios/proyecto.jpg';
+import proyecto from '../assets/Servicios/proyecto.webp';
 import auditoria from '../assets/Servicios/auditoria.jpg';
 
 const services = [
