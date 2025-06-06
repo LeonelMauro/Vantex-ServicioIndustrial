@@ -17,7 +17,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Servicios Técnicos Industriales. Todos los derechos reservados.
           </Typography>
           <Typography variant="body2">
-            Ubicación: Mendoza-Argentina.
+           <strong>Ubicación: Mendoza-Argentina.</strong> 
           </Typography>
           <Typography variant="body2" sx={{ mt: 1 }}>
             Contacto:{' '}

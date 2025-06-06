@@ -24,11 +24,11 @@ const Hero = () => {
           transition: 'background 0.3s',
         }}
       >
-        <Typography variant="h2" gutterBottom sx={{
+        <Typography variant="h1" gutterBottom sx={{
               fontFamily: 'Playfair Display, serif', 
               textShadow: `-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 2px rgba(0,0,0,1)`
             }}>
-          Soluciones Industriales de Confianza
+          Servicios Industriales 
         </Typography>
         <Typography variant="h4" gutterBottom sx={{
               color: 'white',

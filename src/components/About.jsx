@@ -18,7 +18,7 @@ const About = () => {
       {/* Contenido principal */}
       <Container maxWidth="md" sx={{ py: 8 }}>
         <Typography
-          variant="h4"
+          variant="h2"
           gutterBottom
           sx={{ fontFamily: 'Playfair Display, serif',fontWeight: 'bold', fontSize: { xs: '2rem', sm: '2.5rem' }, color: '#D2B48C', }}
         >
@@ -29,11 +29,11 @@ const About = () => {
           variant="body1"
           sx={{ lineHeight: 1.9, fontSize: '1.2rem', color: '#FDFCF9', mb: 4 }}
         >
-          Somos una empresa de servicios técnicos industriales que se especializa en resolver problemas con calidad, compromiso y profesionalismo. Nos diferenciamos por la puntualidad, el orden y la excelencia en cada trabajo.
+          En <strong>Vantex Industrial</strong> ofrecemos <strong>servicios técnicos industriales en Mendoza</strong>, especializados en <strong>automatización, instalaciones eléctricas</strong> y mantenimiento técnico. Nos destacamos por nuestro compromiso, puntualidad y un enfoque orientado a resultados concretos.
           <br /><br />
-          Brindamos soluciones con una experiencia de calidad total, comunicación clara, orden, resolución eficiente y excelencia profesional. Somos el aliado que soluciona, no el que complica.
+          Brindamos soluciones integrales con una atención personalizada, comunicación clara y un enfoque meticuloso en cada detalle. Nuestro objetivo es ser el aliado técnico que resuelve con eficiencia, no el que complica.
           <br /><br />
-          En nuestra empresa, la seguridad es una prioridad. Nos aseguramos de cumplir con todas las regulaciones y normativas nacionales e internacionales en nuestros trabajos.
+          La <strong>seguridad industrial</strong> es un pilar en todos nuestros servicios. Trabajamos bajo estrictas normativas nacionales e internacionales, garantizando calidad, cumplimiento y tranquilidad para nuestros clientes.
         </Typography>
 
         {/* Íconos con valores */}

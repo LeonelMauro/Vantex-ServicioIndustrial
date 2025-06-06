@@ -16,45 +16,46 @@ import mantenimiento2 from '../assets/Servicios/mantenimiento2.webp';
 import ingenieria from '../assets/Servicios/ingenieria.webp';
 import ingenieria2 from '../assets/Servicios/ingenieria2.jpg';
 import montaje from '../assets/Servicios/montaje.webp';
-import montaje2 from '../assets/Servicios/montaje2.jpg';
+import montaje2 from '../assets/Servicios/montaje2.webp';
 import montaje3 from '../assets/Servicios/montaje3.webp';
 import diagnostico from '../assets/Servicios/diagnostico.webp';
 import diagnostico3 from '../assets/Servicios/diagnostico3.jpg';
 import proyecto from '../assets/Servicios/proyecto.webp';
-import auditoria from '../assets/Servicios/auditoria.jpg';
+import auditoria from '../assets/Servicios/auditoria.webp';
 
 const services = [
   {
     name: 'Mantenimiento industrial',
     icon: <BuildIcon />,
-    description: 'Servicio de mantenimiento preventivo y correctivo de instalaciones industriales.',
+    description: 'Mantenimiento preventivo y correctivo de líneas de producción, tableros eléctricos y sistemas industriales en Mendoza.',
     images: [mantenimiento, mantenimiento2]
   },
   {
     name: 'Ingeniería (Proyectos)',
     icon: <SettingsSuggestIcon />,
-    description: 'Diseño y ejecución de proyectos de ingeniería a medida.',
+    description: 'Desarrollo de proyectos de ingeniería eléctrica y automatización industrial adaptados a normativas nacionales e internacionales.',
     images: [ingenieria, ingenieria2]
   },
   {
     name: 'Montaje de equipos',
     icon: <PrecisionManufacturingIcon />,
-    description: 'Montaje y puesta en marcha de maquinaria industrial.',
-    images: [montaje, montaje2,montaje3]
+    description: 'Montaje industrial de maquinaria, armado de tableros eléctricos, puesta en marcha y calibración de equipos técnicos.',
+    images: [montaje, montaje2, montaje3]
   },
   {
     name: 'Diagnóstico y resolución de fallas',
     icon: <TroubleshootIcon />,
-    description: 'Detección y solución rápida de problemas técnicos.',
-    images: [diagnostico,diagnostico3]
+    description: 'Detección de fallas eléctricas o mecánicas y reparación técnica en sistemas industriales, con servicio en planta.',
+    images: [diagnostico, diagnostico3]
   },
   {
     name: 'Auditorías técnicas',
     icon: <AssignmentTurnedInIcon />,
-    description: 'Evaluaciones técnicas para mejorar procesos y prevenir fallas.',
+    description: 'Auditorías industriales para detección de riesgos, evaluación de instalaciones y mejora continua de procesos técnicos.',
     images: [proyecto, auditoria]
   }
 ];
+
 
 const sliderSettings = {
   dots: true,
@@ -83,7 +84,7 @@ const Services = () => {
   return (
     <Box id="servicios" sx={{ py: 8, background: 'linear-gradient(to top, #000A2E, #3B3B3D)' }}>
       <Typography
-        variant="h4"
+        variant="h2"
         align="center"
         gutterBottom      
         sx={{ fontFamily: 'Playfair Display, serif', fontSize: { xs: '2rem', sm: '2.5rem' },color: '#F5E6D3', fontWeight: 'bold', mb: 6 }}
